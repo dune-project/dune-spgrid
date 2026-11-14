@@ -15,5 +15,5 @@ if( DUNE_ENABLE_PYTHONMODULE_PRECOMPILE )
 endif()
 
 if(SKBUILD)
-  install(TARGETS _spgrid LIBRARY DESTINATION python/dune/spgrid)
+  install(TARGETS _spgrid LIBRARY DESTINATION dune/spgrid)
 endif()
